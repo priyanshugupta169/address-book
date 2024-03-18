@@ -107,17 +107,6 @@ This command will run all the unit tests defined in the tests/test.py file and p
 4. **Error Handling:**
    - Proper error handling is implemented for invalid requests.
 
-## Usage
-
-1. **Run the FastAPI application:**
-   ```bash
-   uvicorn main:app --reload
-   ```
-
-2. **Access the API documentation:**
-   Open your web browser and navigate to `http://localhost:8000/docs` to access the Swagger UI documentation.
-
-3. **Use the provided endpoints to interact with the API.**
 
 ## Database Integration
 
