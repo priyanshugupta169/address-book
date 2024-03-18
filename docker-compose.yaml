@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - ./address_book:/app/address_book  
+      - ./address_book.db:/app/address_book.db  # Mount the SQLite database file
+
